@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><p>
+讲师 前端控制器
+</p></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="PR.prettyPrint()">
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                service
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/YeDaxia/JApiDocs" target="_blank">GitHub</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">collegeDocs<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                            <li><a href="../college-manage/index.html">college-manage</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="book with-summary">
+    <div class="book-summary">
+<div class="search-box form-group">
+    <input type="text" class="form-control" id="inputSearch" placeholder="搜索接口">
+    <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+</div>
+<div id="accordion" class="catalog">
+        <div class="panel">
+            <div id="heading0" data-parent="#accordion" class="catalog-title" data-toggle="collapse"
+                 aria-expanded="true" data-target="#collapse0" aria-controls="collapse0">
+                <i class="glyphicon glyphicon-align-justify"></i> EduLoginController
+            </div>
+            <div id="collapse0" class="collapse in " aria-labelledby="heading0">
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduLoginController.html#login">
+                        login
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduLoginController.html#info">
+                        info
+                    </a>
+            </div>
+        </div>
+        <div class="panel">
+            <div id="heading1" data-parent="#accordion" class="catalog-title" data-toggle="collapse"
+                 aria-expanded="true" data-target="#collapse1" aria-controls="collapse1">
+                <i class="glyphicon glyphicon-align-justify"></i> <p>
+讲师 前端控制器
+</p>
+            </div>
+            <div id="collapse1" class="collapse in " aria-labelledby="heading1">
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#findAllTeacher">
+                        所有讲师列表
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#removeTeacher">
+                        逻辑删除讲师
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#pageListTeacher">
+                        分页查询讲师
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#pageTeacherCondition">
+                        分页查询带条件
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#addTeacher">
+                        添加讲师
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#getTeacherById">
+                        根据讲师ID查询讲师
+                    </a>
+                    <a class="catalog-item" href="com_liuluojie_eduservice_controller_EduTeacherController.html#updateTeacher">
+                        修改讲师
+                    </a>
+            </div>
+        </div>
+</div>    </div>
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+                <div class="d-flex justify-content-between">
+                    <a class="header-menu toggle-catalog" href="javascript:void(0)"><i
+                            class="glyphicon glyphicon-align-justify"></i> 目录</a>
+                </div>
+            </div>
+            <div class="page-wrapper">
+                <div class="page-inner">
+                    <div class="action-list">
+                        <div class="action-item">
+<h2 id="findAllTeacher"><a href="#">所有讲师列表 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/findAll</code>
+        <span class="label label-default">GET</span>
+</p>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_findAllTeacher_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_findAllTeacher_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                        <div class="action-item">
+<h2 id="removeTeacher"><a href="#">逻辑删除讲师 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/{id}</code>
+        <span class="label label-default">DELETE</span>
+</p>
+        <p><strong>请求参数</strong> <span class="badge">application/x-www-form-urlencoded</span></p>
+        <table class="table table-bordered">
+            <tr>
+                <th>参数名</th>
+                <th>类型</th>
+                <th>必须</th>
+                <th>描述</th>
+            </tr>
+                    <tr>
+                        <td>id</td>
+                        <td>string</td>
+                        <td>是</td>
+                        <td></td>
+                    </tr>
+        </table>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_removeTeacher_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_removeTeacher_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                        <div class="action-item">
+<h2 id="pageListTeacher"><a href="#">分页查询讲师 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/pageTeacher/{current}/{limit}</code>
+        <span class="label label-default">GET</span>
+</p>
+        <p><strong>请求参数</strong> <span class="badge">application/x-www-form-urlencoded</span></p>
+        <table class="table table-bordered">
+            <tr>
+                <th>参数名</th>
+                <th>类型</th>
+                <th>必须</th>
+                <th>描述</th>
+            </tr>
+                    <tr>
+                        <td>current</td>
+                        <td>long</td>
+                        <td>否</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>limit</td>
+                        <td>long</td>
+                        <td>否</td>
+                        <td></td>
+                    </tr>
+        </table>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_pageListTeacher_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_pageListTeacher_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                        <div class="action-item">
+<h2 id="pageTeacherCondition"><a href="#">分页查询带条件 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/pageTeacherCondition/{current}/{limit}</code>
+        <span class="label label-default">POST</span>
+</p>
+        <p><strong>请求参数</strong> <span class="badge">application/x-www-form-urlencoded</span></p>
+        <table class="table table-bordered">
+            <tr>
+                <th>参数名</th>
+                <th>类型</th>
+                <th>必须</th>
+                <th>描述</th>
+            </tr>
+                    <tr>
+                        <td>current</td>
+                        <td>long</td>
+                        <td>否</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>limit</td>
+                        <td>long</td>
+                        <td>否</td>
+                        <td></td>
+                    </tr>
+        </table>
+        <p><strong>请求体</strong> <span class="badge">application/json</span></p>
+        <pre class="prettyprint lang-json">{
+	"name":"string",
+	"level":"int",
+	"begin":"string",
+	"end":"string"
+}</pre>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_pageTeacherCondition_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_pageTeacherCondition_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                        <div class="action-item">
+<h2 id="addTeacher"><a href="#">添加讲师 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/addTeacher</code>
+        <span class="label label-default">POST</span>
+</p>
+        <p><strong>请求体</strong> <span class="badge">application/json</span></p>
+        <pre class="prettyprint lang-json">{
+	"id":"string",
+	"name":"string",
+	"intro":"string",
+	"career":"string",
+	"level":"int",
+	"avatar":"string",
+	"sort":"int",
+	"isDeleted":"boolean",
+	"gmtCreate":"date",
+	"gmtModified":"date"
+}</pre>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_addTeacher_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_addTeacher_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                        <div class="action-item">
+<h2 id="getTeacherById"><a href="#">根据讲师ID查询讲师 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/getTeacherById/{id}</code>
+        <span class="label label-default">GET</span>
+</p>
+        <p><strong>请求参数</strong> <span class="badge">application/x-www-form-urlencoded</span></p>
+        <table class="table table-bordered">
+            <tr>
+                <th>参数名</th>
+                <th>类型</th>
+                <th>必须</th>
+                <th>描述</th>
+            </tr>
+                    <tr>
+                        <td>id</td>
+                        <td>string</td>
+                        <td>否</td>
+                        <td></td>
+                    </tr>
+        </table>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_getTeacherById_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_getTeacherById_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                        <div class="action-item">
+<h2 id="updateTeacher"><a href="#">修改讲师 </a></h2>
+    <p class="text-muted"><em>作者: liuluojie</em></p>
+<p><strong>请求URL</strong></p>
+<p>
+    <code>/eduservice/teacher/updateTeacher</code>
+        <span class="label label-default">POST</span>
+</p>
+        <p><strong>请求体</strong> <span class="badge">application/json</span></p>
+        <pre class="prettyprint lang-json">{
+	"id":"string",
+	"name":"string",
+	"intro":"string",
+	"career":"string",
+	"level":"int",
+	"avatar":"string",
+	"sort":"int",
+	"isDeleted":"boolean",
+	"gmtCreate":"date",
+	"gmtModified":"date"
+}</pre>
+    <p><strong>返回结果</strong></p>
+    <pre class="prettyprint lang-json">{
+	"success":"boolean",
+	"code":"int",
+	"message":"string",
+	"data":{}
+}</pre>
+        <div class="form-group">
+            <a type="button" class="btn btn-sm btn-default" href="javaCodes/com_liuluojie_eduservice_controller_EduTeacherController_updateTeacher_com.liuluojie.commonutils.R.html"><i
+                        class="fa fa-android" aria-hidden="true"></i> Android Model</a>
+            <a type="button" class="btn btn-sm btn-default" href="iosCodes/com_liuluojie_eduservice_controller_EduTeacherController_updateTeacher_com.liuluojie.commonutils.R.html"><i class="fa fa-apple"
+                                                                                                 aria-hidden="true"></i>
+                iOS Model</a>
+        </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.js"></script>
+<script>
+
+    var search_source_data = [
+            {name: 'EduLoginController.login', url: 'com_liuluojie_eduservice_controller_EduLoginController.html#login'},
+            {name: 'EduLoginController.info', url: 'com_liuluojie_eduservice_controller_EduLoginController.html#info'},
+            {name: '<p>
+讲师 前端控制器
+</p>.所有讲师列表', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#findAllTeacher'},
+            {name: '<p>
+讲师 前端控制器
+</p>.逻辑删除讲师', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#removeTeacher'},
+            {name: '<p>
+讲师 前端控制器
+</p>.分页查询讲师', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#pageListTeacher'},
+            {name: '<p>
+讲师 前端控制器
+</p>.分页查询带条件', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#pageTeacherCondition'},
+            {name: '<p>
+讲师 前端控制器
+</p>.添加讲师', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#addTeacher'},
+            {name: '<p>
+讲师 前端控制器
+</p>.根据讲师ID查询讲师', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#getTeacherById'},
+            {name: '<p>
+讲师 前端控制器
+</p>.修改讲师', url: 'com_liuluojie_eduservice_controller_EduTeacherController.html#updateTeacher'},
+    ];
+
+
+
+    $('.toggle-catalog').click(function () {
+        $('.book').toggleClass('with-summary');
+    });
+
+    $('#inputSearch').autocomplete({hint: false}, [
+        {
+            source: function (query, callback) {
+                var result = [];
+                for(var i = 0; i !== search_source_data.length; i++){
+                    if(search_source_data[i].name.indexOf(query) !== -1){
+                        result.push(search_source_data[i]);
+                    }
+                }
+                callback(result);
+            },
+            displayKey: 'name',
+            templates: {
+                suggestion: function (suggestion) {
+                    return suggestion.name;
+                }
+            }
+        }
+    ]).on('autocomplete:selected', function (event, suggestion, dataset, context) {
+        self.location = suggestion.url;
+    });
+</script>
+</body>
+</html>

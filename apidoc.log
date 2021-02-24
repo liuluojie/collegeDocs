@@ -1,0 +1,34 @@
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [D:\Java\Project\college\service\service_edu\src\main\java\]
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Java\Project\college\service\service_edu\src\main\java\
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : EduLoginController.java
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : EduTeacherController.java
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : EduLoginController.java
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : EduLoginController.java
+二月 24, 2021 10:29:31 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : EduTeacherController.java
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : EduTeacherController.java
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Java\Project\college\service\service_edu\src\main\java\com\liuluojie\eduservice\controller\EduLoginController.java
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Java\Project\college\service\service_edu\src\main\java\com\liuluojie\eduservice\controller\EduLoginController.java
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Java\Project\college\service\service_edu\src\main\java\com\liuluojie\eduservice\controller\EduTeacherController.java
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Java\Project\college\service\service_edu\src\main\java\com\liuluojie\eduservice\controller\EduTeacherController.java
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+二月 24, 2021 10:29:32 上午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!
